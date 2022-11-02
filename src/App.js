@@ -15,7 +15,7 @@ function App() {
 
    <Routes>
 
-    <Route path="/react-deploy" element={<MidContainer/>} />
+    <Route path="/react" element={<MidContainer/>} />
     <Route path="/Home" element={<MidContainer/>}/>
     <Route path="/Quoting" element={<Quoting/>}/>
         <Route path="/Application" element={<Application />}/> 
