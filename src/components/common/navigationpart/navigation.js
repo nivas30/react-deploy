@@ -16,7 +16,7 @@ function Navigation() {
             <NavigationBar>
                 <NavWrapper>
                
-                <Line to='/MidContainer'><Navitems>{content.home}</Navitems></Line>
+                <Line to='/Home'><Navitems>{content.home}</Navitems></Line>
                    
                  <Line to='/Quoting'><Navitems>{content.quoting}</Navitems></Line> 
 

@@ -31,6 +31,7 @@ const prospect='Prospect'
 //applicationheader
 
 const manage='Manage Applications'
+const requireh='Applications Requiring'
 const view ='View non-electronic application'
 
 
@@ -241,4 +242,4 @@ export const content = {home , quoting, customerCheck,scopeOfAppointment,provide
 ,applicationHeading,information,prospect,manage,view
 ,status,dob,dateofbirth,zipcode,zip,country
 ,value,cell,phone,upadte,dateupdate,pdf,none,welcome,card,recall,transfer
-,hra,response,need,outreach,late,create,leave,member,popup,removecontent,removename,legalprivacy,app}
+,hra,response,need,outreach,late,create,leave,member,popup,removecontent,removename,legalprivacy,app,requireh}

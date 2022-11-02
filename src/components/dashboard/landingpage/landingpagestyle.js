@@ -20,7 +20,13 @@ box-shadow: 0 0 3px slateGray;
 @media (max-width: 768px) {
     width:15%
     }
-`;
+
+@media (max-width: 425px) {
+        width:80%
+        }
+`
+
+;
 
 
 export const Card=styled.div`
@@ -78,6 +84,9 @@ justify-content: space-around;
 padding: 1rem 3rem;
 
 /* top:6rem; */
+@media (max-width: 425px) {
+    flex-direction:column
+}
 `;
 
 
@@ -89,6 +98,9 @@ width: 60%;
 @media (max-width: 768px) {
     font-size: 13px;
 }
+@media (max-width: 425px) {
+    width:100%
+}
 `;
 
 export const FooterSubContent = styled.div`
@@ -98,6 +110,9 @@ padding:0.5rem;
 width: 40%;
 @media (max-width: 768px) {
     font-size: 13px;
+}
+@media (max-width: 768px) {
+    width:100%;
 }
 
 /* background-color: black; */

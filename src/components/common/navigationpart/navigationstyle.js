@@ -71,19 +71,16 @@ justify-content: space-between;
 `;
 
 export const Ham=styled.div`
-/* display: block; */
-/* @media (max-width: 768px) {
-    display: block;} */
+
 display: flex;
-justify-content: right;
+justify-content: center;
 border: none;
-/* background-color: white; */
+
 align-content: center;
 background-color: #CACACA;
 /* display: none; */
 padding: 8px;
 font-size: 14px;
-
 `;
 
 
@@ -96,6 +93,7 @@ export const Icon=styled.div`
 display: flex;
 flex-direction: column;
 justify-content: center;
+
 /* border: 1px solid black; */
 
 width: 28%;
@@ -104,5 +102,13 @@ z-index: 1;
 top: 7%;
 /* right: 0; */
 left: 72%;
+ @media (max-width: 425px) {
+  top:5%;
+  left:50%;
+  width:50%
+  
+    
+    
 
+}
 `;
